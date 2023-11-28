@@ -1,5 +1,13 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+:root {
+    --primary-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #000000;
+    --accent-color: #18a0fb;
+    --primary-white-color: #ffffff;
+}
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap'); 
+*/
 body {
     margin: 0;
     line-height: normal;
@@ -17,7 +25,13 @@ body {
     width: 100%;
     height: 600px;
     }
-.devtop {
+
+    .accent-logo {
+    color: #2196F3;
+    
+    }
+
+    /* .devtop {
     margin: -15px -200px 0px 70px;
     background-color: #2196F3;
     font-family: 'Roboto', sans-serif;
@@ -43,7 +57,7 @@ body {
     -webkit-text-fill-color: transparent;
     background-size: 100%;
     background-image: linear-gradient(90deg,#2196F3 37%,#fff 30%,#fff 70%);
-    }
+    } */
 .tips {
     position: relative;
     border-radius: 4px;
